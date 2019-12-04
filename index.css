@@ -1,0 +1,27 @@
+html, body {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+#progress-marker, #start-marker {
+  border: 1px solid;
+}
+
+.progress-ring {
+  position: fixed;
+  right: 50px;
+  transform: rotate(-90deg);
+  /*
+  transform: rotate(-180deg);
+  transform-origin: 50% 50%;
+  */
+}
+
+input {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 80px;
+}
