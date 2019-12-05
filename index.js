@@ -1,6 +1,6 @@
 const getPosRelativeToBody = (el) => {
   return Math.abs(
-    document.body.getBoundingClientRect().top - el.getBoundingClientRect().top
+    document.documentElement.getBoundingClientRect().top - el.getBoundingClientRect().top
   )
 }
 
